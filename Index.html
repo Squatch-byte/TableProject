@@ -1,0 +1,65 @@
+<html>
+<head>
+  <link href="Resources/Stylesheet.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<header>
+  <h1> CSS Selectors and Specificity</h1>
+</header>
+
+<table>
+  <thead> 
+    <tr>
+      <td> Selector Type </td>
+      <td> Syntax </td>
+      <td> Description </td>
+      <td> Example </td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr class="universal">
+      <td> Universal Selector </td>
+      <td> *, ns|*, *|* </td>
+      <td> Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</td>
+      <td>* will match all the elements of the document</td>
+    </tr>
+    <tr class="type">
+      <td> Type Selector </td>
+      <td> elementname </td>
+      <td> Selects all elements that have the given node name.</td>
+      <td> input will match any &lt;input&gt; element.</td>
+    </tr>
+    <tr class="class">
+      <td>Class Selector</td>
+      <td> .classname </td>
+      <td> Selects all elements that have the given class attribute.</td>
+      <td> .index will match any element that has class="index"</td>
+    </tr>
+    <tr class="id">
+      <td> ID Selector</td>
+      <td> #idname </td>
+      <td> Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.</td>
+      <td> #toc will match the element that has id="toc"</td>
+    </tr>
+    <tr class="attribute">
+      <td>Attribute Selector</td>
+      <td>[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</td>
+      <td>Selects all elements that have the given attribute.</td>
+      <td>Example: [autoplay] will match all elements that have the autoplay attribute set (to any value).</td>
+    </tr>
+  
+  </tbody>
+
+
+</table>
+
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(158, 168, 164);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid black;
+    box-sizing: border-box;
+    line-height: normal;
+    text-align: center;
+  }
+  
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  h1{
+    text-align: center;
+
+  }
+
+  thead{
+    background-color: palegreen;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    padding: 20px;
+
+  }
+
+  td {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  tr,
+  td {
+    padding: 20px;
+    
+  }
+
+  .universal{
+    background-color: palegoldenrod;
+  }
+
+  .type{
+    background-color: paleturquoise;
+  }
+
+  .class{
+    background-color: palegoldenrod;
+  }
+
+  .id{
+    background-color: paleturquoise;
+  }
+
+  .attribute{
+    background-color: palegoldenrod;
+  }
